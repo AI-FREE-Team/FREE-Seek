@@ -1,6 +1,3 @@
-# FREE-Seek
-
-
 # Llama-3.2-3B-Traditional-Chinese-FREE-Seek <a href="https://colab.research.google.com/github/AI-FREE-Team/Traditional-Chinese-Handwriting-Dataset/blob/master/Data_Deployment_colab.ipynb"><img src="https://img.shields.io/badge/%E5%AF%A6%E4%BD%9C-Colab-yellow.svg?style=popout-square" alt="範例 Colab"></a>
 # Llama-3.2-3B Deepseek 蒸餾繁體中文模型：FREE-Seek
 
