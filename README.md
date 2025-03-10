@@ -1,4 +1,4 @@
-# Llama-3.2-3B-Traditional-Chinese-FREE-Seek <a href="https://colab.research.google.com/github/AI-FREE-Team/Traditional-Chinese-Handwriting-Dataset/blob/master/Data_Deployment_colab.ipynb"><img src="https://img.shields.io/badge/%E5%AF%A6%E4%BD%9C-Colab-yellow.svg?style=popout-square" alt="範例 Colab"></a>
+# Llama-3.2-3B-Traditional-Chinese-FREE-Seek <a href="https://colab.research.google.com/github/AI-FREE-Team/FREE-Seek/blob/main/FREE_Seek_usage%20example.ipynb"><img src="https://img.shields.io/badge/%E5%AF%A6%E4%BD%9C-Colab-yellow.svg?style=popout-square" alt="範例 Colab"></a>
  - Llama-3.2-3B 蒸餾繁體中文模型：FREE-Seek
 
 ![人工智慧 - 自由團隊](https://raw.githubusercontent.com/chenkenanalytic/img/master/af/aifreeteam.png)
@@ -36,7 +36,7 @@ FREE-Seek 模型使用 Llama-3.2-3B 進行兩階段訓練，包含：(1)預訓�
 
 ## Usage 使用方法
 
-### 1. 完整資料集 - whole Dataset (13,065 characters)
+### 1. 使用 Transformers 套件
 ``` bash
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
@@ -55,6 +55,11 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="auto"
 )
 ```
+
+### 2. 使用 Google Colab
+
+<a href="https://colab.research.google.com/github/AI-FREE-Team/FREE-Seek/blob/main/FREE_Seek_usage%20example.ipynb"><img src="https://img.shields.io/badge/%E5%AF%A6%E4%BD%9C-Colab-yellow.svg?style=popout-square" alt="範例 Colab"></a>
+Note: 請記得選擇 GPU!
  
 ## Issues 問題與發現
 
