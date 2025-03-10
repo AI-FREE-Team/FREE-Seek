@@ -58,7 +58,7 @@ model = AutoModelForCausalLM.from_pretrained(
 
 ### 2. 使用 Google Colab
 
-<a href="https://colab.research.google.com/github/AI-FREE-Team/FREE-Seek/blob/main/FREE_Seek_usage%20example.ipynb"><img src="https://img.shields.io/badge/%E5%AF%A6%E4%BD%9C-Colab-yellow.svg?style=popout-square" alt="範例 Colab"></a>
+<a href="https://colab.research.google.com/github/AI-FREE-Team/FREE-Seek/blob/main/FREE_Seek_usage%20example.ipynb"><img src="https://img.shields.io/badge/%E5%AF%A6%E4%BD%9C-Colab-yellow.svg?style=popout-square" alt="範例 Colab"></a><br>
 Note: 請記得選擇 GPU!
  
 ## Issues 問題與發現
